@@ -1,10 +1,8 @@
-require 'git-version-bump'
-
 Gem::Specification.new do |s|
 	s.name = "lvmsync"
 
-	s.version = GVB.version
-	s.date    = GVB.date
+	s.version = "3.3.0"
+	s.date    = "2015-01-22"
 
 	s.platform = Gem::Platform::RUBY
 
@@ -30,7 +28,6 @@ Gem::Specification.new do |s|
 	}
 	s.executables = ["lvmsync"]
 
-	s.add_runtime_dependency "git-version-bump", "~> 0.10"
 	s.add_runtime_dependency "treetop"
 
 	s.add_development_dependency 'bundler'
